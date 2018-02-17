@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header-div {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
+
+#header {
+    position: relative;
+    top: 10px;
+    color: #4B367C;
+    font-family: 'Patua One', cursive;
+    display: inline;
+}
+
+#wrapper {
+    display: grid;
+    grid-auto-rows: 40vh;
+}
+
+.profile {
+    background-color: #4B367C;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.profile:hover {
+    background-color: #fff;
+    color: #444;
+    transition: 1s;
+}
+
+.displayName {
+    font-weight: 100;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: .1em;
+}
+
+.logo {
+    height: 20%;
+    ;
+    border-radius: 50%;
+    margin: .3em;
+    border: 2px solid white;
+}
+
+.logo:hover {
+    transition: 1s;
+    border: 2px solid #4B367C;
+}
+
+.bio {
+    padding: 5px 100px;
+    font-size: 80%;
+    display: block;
+}
+
+.status {
+    font-size: 70%;
+    display: block;
+    margin: 0;
+    padding: 10px;
+}
+
+.game {
+    color: #19f;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        margin-top: 1em;
+    }
+    #wrapper {
+        grid-template-comlumns: 100%;
+    }
+    .bio {
+        padding: 5px 20px;
+    }
+}
