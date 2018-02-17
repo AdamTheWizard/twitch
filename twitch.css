@@ -84,6 +84,21 @@ a {
     color: #19f;
 }
 
+#footer-list {
+    color:#4B367C;
+    text-align:center;
+    text-decoration: none;
+    margin-left:-.5em;
+}
+.footer-item {
+    display:inline;
+    font-size:300%;
+    margin-right:.5em;
+}
+#footer-text {
+    text-align:center;
+    font-size:60%;
+}
 
 @media only screen and (max-width: 500px) {
     .logo {
@@ -94,5 +109,8 @@ a {
     }
     .bio {
         padding: 5px 20px;
+    }
+    .footer-item {
+        font-size:200%;
     }
 }
