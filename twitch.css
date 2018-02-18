@@ -129,8 +129,7 @@ a {
 }
 
 #toggle-btn-div {
-    position: absolute;
-    right: 0;
+    position: relative;
 }
 
 @media only screen and (max-width: 500px) {
