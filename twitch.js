@@ -1,6 +1,7 @@
 /* This is very badly written, I know! don't look! */
 
-var usersArr = ["ninja", "freecodecamp", "medryBW", "DrDisRespectLIVE", "ESL_SC2", "cretetion", "habathcx", "noobs2ninjas", "Pink_Sparkles", "NICKMERCS"];
+var usersArr = ["ninja", "dakotaz", "DrDisRespectLIVE", "TSM_Myth", "Loserfruit", "NICKMERCS", "Pineaqples
+"];
 
 var usersUrl = "https://wind-bow.gomix.me/twitch-api/users/";
 var streamUrl = "https://wind-bow.gomix.me/twitch-api/streams/";
